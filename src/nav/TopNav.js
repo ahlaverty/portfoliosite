@@ -10,7 +10,7 @@ import './nav.css';
 export default function TopNav() {
     return (
         <Navbar expand="lg" sticky="top"> 
-            <Navbar.Brand href="#home">A.h. Laverty</Navbar.Brand>
+            <Navbar.Brand href="/">A.h. Laverty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <FontAwesomeIcon icon={faBars} size="lg" />
                 </Navbar.Toggle>

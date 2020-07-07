@@ -23,6 +23,10 @@
   font-size: 1.5rem;
 }
 
+.navbar-light .navbar-brand:hover {
+  color: #FFFFFF;
+}
+
 .navbar-light .navbar-toggler {
   color: #FFFFFF;
 }

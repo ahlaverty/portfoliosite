@@ -14,7 +14,7 @@ export default function Contact() {
             <Row className="align-items-end">
                 <Col>
                     <h2 className="contact-heading">
-                        <a target="_blank" className="contact-email"
+                        <a target="_blank" rel="noopener noreferrer" className="contact-email"
                             href="mailto:aubrey.laverty@gmail.com"
                             onMouseEnter={() => setIsHoveredEmail(true)}
                             onMouseLeave={() => setIsHoveredEmail(false)}>
@@ -27,7 +27,7 @@ export default function Contact() {
             <Row>
                 <Col>
                     <h2 className="contact-heading">
-                        <a target="_blank" className="contact-linkedin"
+                        <a target="_blank" rel="noopener noreferrer" className="contact-linkedin"
                             href="https://www.linkedin.com/in/ahlaverty/"
                             onMouseEnter={() => setIsHoveredLI(true)}
                             onMouseLeave={() => setIsHoveredLI(false)}>
