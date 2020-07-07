@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEEA,AAAA,iBAAiB,CAAC;EACd,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,WAAW,CAAC;EACR,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,cAAc,CAAC;EACX,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "global-styles.scss",
+        "_colors.scss",
+        "_fonts.scss"
+    ],
+    "names": [],
+    "file": "global-styles.css"
+}

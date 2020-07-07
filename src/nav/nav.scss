@@ -1,0 +1,51 @@
+@import '../styles/global-styles';
+
+.navbar-light  {
+    
+    .navbar-brand {
+        color: $white;
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler {
+        color: $white;
+    }
+
+    .navbar-nav {
+
+        .nav-link {
+            border-bottom: 2px solid transparent;
+            color: $white;
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin-left: .75rem;
+            margin-right: .75rem;
+            overflow: hidden;
+            position: relative;
+            background: linear-gradient(to right, $secondary-light, $secondary-color 50%, $white 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            background-position: 100%;
+            transition: background-position 275ms ease;
+            
+            &::after {
+                content: '';
+                display: block;
+                width: 0%;
+                padding-top: 5px;
+                border-bottom: 2px solid $primary-color;
+                transition: .5s;
+            }
+
+            &:hover {
+                background-position: 0 100%;
+                
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+    } 
+}

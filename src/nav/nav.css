@@ -1,0 +1,63 @@
+.font-extra-light {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.navbar-light .navbar-brand {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-bottom: 2px solid transparent;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-left: .75rem;
+  margin-right: .75rem;
+  overflow: hidden;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#89e8dc), color-stop(50%, #49dcc9), color-stop(50%, #FFFFFF));
+  background: linear-gradient(to right, #89e8dc, #49dcc9 50%, #FFFFFF 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-transition: background-position 275ms ease;
+  transition: background-position 275ms ease;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  width: 0%;
+  padding-top: 5px;
+  border-bottom: 2px solid #2336b6;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-position: 0 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+/*# sourceMappingURL=nav.css.map */
