@@ -1,1 +1,29 @@
-/* No CSS *//*# sourceMappingURL=about.css.map */
+.font-extra-light {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.role-1 {
+  color: #2336b6;
+}
+
+.role-2 {
+  color: #49dcc9;
+}
+/*# sourceMappingURL=about.css.map */

@@ -15,30 +15,70 @@
 }
 
 .contact-heading {
-  font-size: 4rem;
-  margin-top: 2rem;
+  font-size: 5rem;
+  margin-top: 3rem;
 }
 
-.contact {
-  font-size: 2rem;
+.contact-email {
+  color: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#89e8dc), color-stop(50%, #49dcc9), color-stop(50%, #FFFFFF));
+  background: linear-gradient(to right, #89e8dc, #49dcc9 50%, #FFFFFF 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-transition: background-position 375ms ease;
+  transition: background-position 375ms ease;
+}
+
+.contact-email:hover {
+  background-position: 0 100%;
+  color: #2336b6;
+  text-decoration: none;
+}
+
+.contact-linkedin {
+  color: #FFFFFF;
+}
+
+.contact-linkedin:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contact-linkedin:hover .me {
+  background: #0A66C2;
+  padding-right: 1.5rem;
+}
+
+.contact-linkedin .me {
+  color: #FFFFFF;
+  display: inline-block;
+  padding: .5rem 0 1rem 1.5rem;
+  line-height: 1;
+  border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  .contact-heading {
+    font-size: 7rem;
+    margin-top: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
   .contact-heading {
-    font-size: 6rem;
-    margin-top: 3rem;
-  }
-  .contact {
-    font-size: 3rem;
+    font-size: 9rem;
+    margin-top: 4rem;
   }
 }
 
 @media (min-width: 992px) {
   .contact-heading {
-    font-size: 8rem;
-  }
-  .contact {
-    font-size: 4rem;
+    font-size: 10rem;
   }
 }
 /*# sourceMappingURL=contact.css.map */

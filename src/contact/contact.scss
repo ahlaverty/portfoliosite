@@ -1,31 +1,67 @@
 @import '../styles/global-styles';
 
 .contact-heading {
-    font-size: 4rem;
-    margin-top: 2rem;
+    font-size: 5rem;
+    margin-top: 3rem;
 }
 
-.contact {
-    font-size: 2rem;
+.contact-email {
+    color: $white;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to right, $secondary-light, $secondary-color 50%, $white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 375ms ease;
+
+    &:hover {
+        background-position: 0 100%;
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.contact-linkedin {
+    color: $white;
+
+    &:hover {
+        color: $white;
+        text-decoration: none;
+
+        .me {
+            background: #0A66C2;
+            padding-right: 1.5rem;
+        }
+    }
+    
+    .me {
+        color: $white;
+        display: inline-block;
+        padding: .5rem 0 1rem 1.5rem;
+        line-height: 1;
+        border-radius: 10px;
+    }
+}
+
+@media(min-width: 600px) {
+    .contact-heading {
+        font-size: 7rem;
+        margin-top: 2rem;
+    }
 }
 
 @media(min-width: 768px) {
     .contact-heading {
-        font-size: 6rem;
-        margin-top: 3rem;
-    }
-
-    .contact {
-        font-size: 3rem;
+        font-size: 9rem;
+        margin-top: 4rem;
     }
 }
 
 @media(min-width: 992px) {
     .contact-heading {
-        font-size: 8rem;
-    }
-
-    .contact {
-        font-size: 4rem;
+        font-size: 10rem;
     }
 }

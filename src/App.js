@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { HashRouter, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,10 +18,12 @@ function App() {
       <div className="App" height="100vh">
         <TopNav />
         <Container fluid>
+          <Row className="content-row">
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
+          </Row>
         </Container>
       </div>
     </HashRouter>
