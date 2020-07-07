@@ -6,26 +6,28 @@
     .navbar-brand {
         border-bottom: 2px solid transparent;
         color: $white;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
 
         &:hover, &:focus {
-            color: $secondary-light;
+            color: $primary-light;
         }
     }
 
     .navbar-toggler {
         color: $white;
+        border: none;
     }
 
     .navbar-nav {
+        margin-top: .75rem;
 
         .nav-link {
             border-bottom: 2px solid transparent;
-            color: $black;
+            color: $white;
             font-size: 1.25rem;
 
             &:hover, &.active, &:focus {
-                color: $primary-color;
+                color: $secondary-color;
             }
         }
     } 
@@ -53,6 +55,8 @@
         }
 
         .navbar-nav {
+            margin-top: 0;
+
             .nav-link {
                 color: $black;
                 margin-left: .75rem;
@@ -65,6 +69,10 @@
                     padding-top: 5px;
                     border-bottom: 2px solid $primary-color;
                     transition: .5s;
+                }
+
+                &:hover, &.active, &:focus {
+                    color: $primary-color;
                 }
 
                 &:hover {

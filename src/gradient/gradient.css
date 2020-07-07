@@ -1,25 +1,12 @@
-.gradient-yellow-top {
-  background: -webkit-gradient(linear-gradient(to left bottom, #eeff80 40%, #E4FF33, #c7e600));
-  background: -webkit-gradient(linear, right top, left bottom, color-stop(40%, #eeff80), color-stop(#E4FF33), to(#c7e600));
-  background: linear-gradient(to left bottom, #eeff80 40%, #E4FF33, #c7e600);
-  position: absolute;
-  top: -275px;
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  left: -125px;
-  z-index: -1;
-}
-
 .gradient-green-top {
   background: -webkit-gradient(linear-gradient(45deg, #89e8dc 20%, #34d8c3, #1fa190));
   background: linear-gradient(45deg, #89e8dc 20%, #34d8c3, #1fa190);
   position: absolute;
   top: -200px;
+  right: -250px;
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  right: -140px;
   z-index: -1;
 }
 
@@ -28,11 +15,22 @@
   background: -webkit-gradient(linear, left top, right top, color-stop(20%, #2336b6), to(#131d61));
   background: linear-gradient(to right, #2336b6 20%, #131d61);
   position: absolute;
-  bottom: -200px;
+  bottom: -100px;
+  right: -100px;
   width: 700px;
   height: 700px;
   border-radius: 50%;
-  right: 0px;
   z-index: -2;
+}
+
+@media (min-width: 992px) {
+  .gradient-green-top {
+    top: -200px;
+    right: -140px;
+  }
+  .gradient-bottom {
+    bottom: -200px;
+    right: 0px;
+  }
 }
 /*# sourceMappingURL=gradient.css.map */

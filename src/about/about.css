@@ -21,11 +21,13 @@ h1 {
   max-width: 75%;
 }
 
-.role-1 {
-  color: #2336b6;
+.role-1, .role-2 {
+  color: #27ccb6;
 }
 
-.role-2 {
-  color: #34d8c3;
+@media (min-width: 992px) {
+  .role-1 {
+    color: #3449d8;
+  }
 }
 /*# sourceMappingURL=about.css.map */
