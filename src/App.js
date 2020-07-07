@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './nav/TopNav';
 import Home from './home/Home';
 import About from './about/About';
-import Portfolio from './portfolio/Portfolio';
+//import Portfolio from './portfolio/Portfolio';
 import Contact from './contact/Contact';
 
 import './styles/default.css';
