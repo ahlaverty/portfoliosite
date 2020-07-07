@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,10 +16,10 @@ export default function TopNav() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Link className="nav-link" to="/">Home</Link>
-                        <Link className="nav-link" to="/about">About</Link>
-                        <Link className="nav-link" to="/portfolio">Portfolio</Link>
-                        <Link className="nav-link" to="/contact">Contact</Link>
+                        <NavLink className="nav-link" activeClassName="active" exact to="/">Home</NavLink>
+                        <NavLink className="nav-link" activeClassName="active" to="/about">About</NavLink>
+                        {/* <Link className="nav-link" activeClassName="active" to="/portfolio">Portfolio</Link> */}
+                        <NavLink className="nav-link" activeClassName="active" to="/contact">Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>

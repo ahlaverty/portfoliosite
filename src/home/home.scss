@@ -1,19 +1,30 @@
 @import '../styles/global-styles';
 
 .heading {
-    font-size: 5rem;
-    margin-top: 3rem;
+    font-size: 4rem;
+    margin-top: 5rem;
+
+    :not(:first-of-type){
+        margin-top: 3rem;
+    }
 }
 
 @media(min-width: 768px) {
     .heading {
         font-size: 8rem;
-        margin-top: 5rem;
     }
 }
 
-@media(min-width: 992px) {
+@media(min-width: 992px) and (max-height: 669px) {
     .heading {
-        font-size: 10rem;
+        font-size: 7rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width: 992px) and (min-height: 670px) {
+    .heading {
+        font-size: 9rem;
+        margin-top: 1rem;
     }
 }

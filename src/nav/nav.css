@@ -14,6 +14,10 @@
   font-weight: 700;
 }
 
+.navbar-light {
+  background: #0d0d0d;
+}
+
 .navbar-light .navbar-brand {
   color: #FFFFFF;
   font-size: 1.5rem;
@@ -28,36 +32,46 @@
   color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 300;
-  margin-left: .75rem;
-  margin-right: .75rem;
-  overflow: hidden;
-  position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#89e8dc), color-stop(50%, #49dcc9), color-stop(50%, #FFFFFF));
-  background: linear-gradient(to right, #89e8dc, #49dcc9 50%, #FFFFFF 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  -webkit-transition: background-position 275ms ease;
-  transition: background-position 275ms ease;
 }
 
-.navbar-light .navbar-nav .nav-link::after {
-  content: '';
-  display: block;
-  width: 0%;
-  padding-top: 5px;
-  border-bottom: 2px solid #2336b6;
-  -webkit-transition: .5s;
-  transition: .5s;
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+  color: #49dcc9;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  background-position: 0 100%;
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #FFFFFF;
 }
 
-.navbar-light .navbar-nav .nav-link:hover::after {
-  width: 100%;
+@media (min-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: .75rem;
+    margin-right: .75rem;
+    overflow: hidden;
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, from(#89e8dc), color-stop(50%, #49dcc9), color-stop(50%, #FFFFFF));
+    background: linear-gradient(to right, #89e8dc, #49dcc9 50%, #FFFFFF 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-transition: background-position 275ms ease;
+    transition: background-position 275ms ease;
+  }
+  .navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0%;
+    padding-top: 5px;
+    border-bottom: 2px solid #2336b6;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    background-position: 0 100%;
+  }
+  .navbar-light .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=nav.css.map */

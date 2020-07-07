@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './nav/TopNav';
@@ -14,19 +14,19 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="App" height="100vh">
         <TopNav />
         <Container fluid>
           <Row className="content-row">
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
+            {/* <Route exact path="/portfolio" component={Portfolio} /> */}
             <Route exact path="/contact" component={Contact} />
           </Row>
         </Container>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

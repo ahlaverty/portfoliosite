@@ -1,6 +1,7 @@
 @import '../styles/global-styles';
 
 .navbar-light  {
+    background: $black;
     
     .navbar-brand {
         color: $white;
@@ -18,34 +19,51 @@
             color: $white;
             font-size: 1.25rem;
             font-weight: 300;
-            margin-left: .75rem;
-            margin-right: .75rem;
-            overflow: hidden;
-            position: relative;
-            background: linear-gradient(to right, $secondary-light, $secondary-color 50%, $white 50%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-size: 200% 100%;
-            background-position: 100%;
-            transition: background-position 275ms ease;
-            
-            &::after {
-                content: '';
-                display: block;
-                width: 0%;
-                padding-top: 5px;
-                border-bottom: 2px solid $primary-color;
-                transition: .5s;
+
+            &:hover, &.active {
+                color: $secondary-color;
             }
 
-            &:hover {
-                background-position: 0 100%;
-                
-                &::after {
-                    width: 100%;
-                }
+            &:focus {
+                color: $white;
             }
         }
     } 
+}
+
+@media(min-width: 992px) {
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                margin-left: .75rem;
+                margin-right: .75rem;
+                overflow: hidden;
+                position: relative;
+                background: linear-gradient(to right, $secondary-light, $secondary-color 50%, $white 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 0%;
+                    padding-top: 5px;
+                    border-bottom: 2px solid $primary-color;
+                    transition: .5s;
+                }
+
+                &:hover {
+                    background-position: 0 100%;
+                    
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }

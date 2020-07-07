@@ -2,25 +2,23 @@
 
 .contact-heading {
     font-size: 5rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .contact-email {
     color: $white;
-    overflow: hidden;
-    position: relative;
-    background: linear-gradient(to right, $secondary-light, $secondary-color 50%, $white 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 375ms ease;
 
     &:hover {
-        background-position: 0 100%;
-        color: $primary-color;
+        color: $white;
         text-decoration: none;
+
+        .gmail-me {
+            color: #C24845;
+        }
+    }
+
+    .GmailIcon {
+        width: 70px;
     }
 }
 
@@ -33,17 +31,21 @@
 
         .me {
             background: #0A66C2;
-            padding-right: 1.5rem;
+            padding-left: 1.25rem;
+            padding-right: 1.2rem;
         }
+
     }
     
     .me {
         color: $white;
         display: inline-block;
-        padding: .5rem 0 1rem 1.5rem;
+        padding-bottom: 1rem;
+        padding-top: .75rem;
         line-height: 1;
         border-radius: 10px;
     }
+
 }
 
 @media(min-width: 600px) {
