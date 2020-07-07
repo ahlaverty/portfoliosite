@@ -1,14 +1,15 @@
 @import '../styles/global-styles';
 
 .navbar-light  {
-    background: $black;
+    background: transparent;
     
     .navbar-brand {
+        border-bottom: 2px solid transparent;
         color: $white;
         font-size: 1.5rem;
 
-        &:hover {
-            color: $white;
+        &:hover, &:focus {
+            color: $secondary-light;
         }
     }
 
@@ -20,16 +21,11 @@
 
         .nav-link {
             border-bottom: 2px solid transparent;
-            color: $white;
+            color: $black;
             font-size: 1.25rem;
-            font-weight: 300;
 
-            &:hover, &.active {
-                color: $secondary-color;
-            }
-
-            &:focus {
-                color: $white;
+            &:hover, &.active, &:focus {
+                color: $primary-color;
             }
         }
     } 
@@ -37,19 +33,30 @@
 
 @media(min-width: 992px) {
     .navbar-light {
+        .navbar-brand {
+            &::after {
+                content: '';
+                display: block;
+                width: 0%;
+                padding-top: 5px;
+                border-bottom: 2px solid $primary-color;
+                transition: 1s;
+            }
+    
+            &:hover {
+                background-position: 0 100%;
+                
+                &::after {
+                    width: 100%;
+                }
+            }   
+        }
+
         .navbar-nav {
             .nav-link {
+                color: $black;
                 margin-left: .75rem;
                 margin-right: .75rem;
-                overflow: hidden;
-                position: relative;
-                background: linear-gradient(to right, $secondary-light, $secondary-color 50%, $white 50%);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-size: 200% 100%;
-                background-position: 100%;
-                transition: background-position 275ms ease;
                 
                 &::after {
                     content: '';

@@ -8,6 +8,7 @@ import Home from './home/Home';
 import About from './about/About';
 //import Portfolio from './portfolio/Portfolio';
 import Contact from './contact/Contact';
+import Gradient from './gradient/Gradient';
 
 import './styles/default.css';
 import './App.css';
@@ -15,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App" height="100vh">
+      <div className="App">
         <TopNav />
         <Container fluid>
           <Row className="content-row">
@@ -24,6 +25,7 @@ function App() {
             {/* <Route exact path="/portfolio" component={Portfolio} /> */}
             <Route exact path="/contact" component={Contact} />
           </Row>
+          <Gradient />
         </Container>
       </div>
     </BrowserRouter>
