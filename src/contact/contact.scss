@@ -53,6 +53,12 @@
         font-size: 7rem;
         margin-top: 2rem;
     }
+
+    .contact-email {
+        .GmailIcon {
+            width: 98px;
+        }
+    }
 }
 
 @media(min-width: 768px) {
@@ -60,10 +66,22 @@
         font-size: 9rem;
         margin-top: 4rem;
     }
+
+    .contact-email {
+        .GmailIcon {
+            width: 126px;
+        }
+    }
 }
 
 @media(min-width: 992px) {
     .contact-heading {
         font-size: 10rem;
+    }
+    
+    .contact-email {
+        .GmailIcon {
+            width: 140px;
+        }
     }
 }
