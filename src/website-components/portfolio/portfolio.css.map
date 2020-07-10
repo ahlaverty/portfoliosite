@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,EAAE,CAAC;EACC,aAAa,EAAE,MAAM;CACxB;;AAED,AACI,KADC,CACD,WAAW,CAAC;EACR,KAAK,ECJI,OAAO;EDKhB,WAAW,EAAE,GAAG;CACnB;;AAJL,AAMI,KANC,CAMD,UAAU,CAAC;EACP,KAAK,ECIN,OAAO;CDHT",
+    "sources": [
+        "portfolio.scss",
+        "../styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "portfolio.css"
+}

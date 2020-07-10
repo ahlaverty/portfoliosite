@@ -1,0 +1,14 @@
+@import "../website-components/styles/colors";
+
+body {
+   background: $white;
+}
+
+.App {
+   height: auto;
+}
+
+.album-collection-title {
+   color: $black;
+   margin-top: 1rem;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACF,UAAU,ECSL,OAAO;CDRd;;AAED,AAAA,IAAI,CAAC;EACF,MAAM,EAAE,IAAI;CACd;;AAED,AAAA,uBAAuB,CAAC;EACrB,KAAK,ECEA,OAAO;EDDZ,UAAU,EAAE,IAAI;CAClB",
+    "sources": [
+        "album-app.scss",
+        "../website-components/styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "album-app.css"
+}

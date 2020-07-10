@@ -1,0 +1,25 @@
+@import '../../website-components/styles/colors';
+
+.song-list {
+   margin-top: 1rem;
+}
+ 
+ul {
+   padding-left: 0;
+   
+   li {
+      border-bottom: 1px solid $gray;
+      list-style-type: none;
+      padding-bottom: .5rem;
+      padding-top: .5rem;
+
+      &:last-of-type {
+         border-bottom: none;
+      }
+
+      .song-track-number {
+         width: 25px;
+         margin-right: 10px;
+      }
+   }
+}

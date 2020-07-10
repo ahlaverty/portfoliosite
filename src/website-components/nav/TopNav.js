@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import './nav.css';
 
-export default function TopNav() {
+export default function TopNav(props) {
     return (
         <Navbar expand="lg" sticky="top"> 
             <Navbar.Brand href="/">A.h. Laverty</Navbar.Brand>

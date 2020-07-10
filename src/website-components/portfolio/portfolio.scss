@@ -1,0 +1,16 @@
+@import '../styles/colors';
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    .card-title {
+        color: $secondary-dark;
+        font-weight: 600;
+    }
+
+    .card-text {
+        color: $gray;
+    }
+}
