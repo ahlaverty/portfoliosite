@@ -18,7 +18,7 @@ export default function TopNav(props) {
                     <Nav>
                         <NavLink className="nav-link" activeClassName="active" exact to="/">Home</NavLink>
                         <NavLink className="nav-link" activeClassName="active" to="/about">About</NavLink>
-                        {/* <Link className="nav-link" activeClassName="active" to="/portfolio">Portfolio</Link> */}
+                        <NavLink className="nav-link" activeClassName="active" to="/portfolio">Portfolio</NavLink>
                         <NavLink className="nav-link" activeClassName="active" to="/contact">Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>

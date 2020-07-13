@@ -17,13 +17,21 @@ export default function Portfolio(){
 				<Row>
 					<Col>
 						<CardDeck>
+							<Card>
+								<Card.Body>
+									<Card.Title>Transitioning off WordPress</Card.Title>
+									<Card.Text>When I was at Investor Cash Management, their corporate site was setup on WordPress. No one had previously actively maintained it, so the site was crashing pretty regularly.</Card.Text>
+									<Card.Text>As a stop gap until the new website design was approved, I offered to redo the website and move it onto an Amazon S3 bucket. The site was successfully transistioned. It can be seen at <a href="https:///www.investorcashmanagement.com">www.investorcashmanagement.com</a>.</Card.Text>
+								</Card.Body>
+							</Card>
 								<Card>
 									<Card.Body>
 										<Card.Title>Album List App</Card.Title>
 										<Card.Text>
 												This app allows you to search for an arttist or song, and find the albums for the artist and the album info.
 										</Card.Text>
-										<Link to="/album-app">Check it out</Link>
+										<Card.Text>Coming Soon!</Card.Text>
+										{/* <Link to="/portfolio/album-app">Check it out</Link> */}
 									</Card.Body>
 								</Card>
 						</CardDeck>

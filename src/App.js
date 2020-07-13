@@ -23,7 +23,7 @@ function App() {
             <MainRoute exact path="/about" component={About} />
             <MainRoute exact path="/portfolio" component={Portfolio} />
             <MainRoute exact path="/contact" component={Contact} />
-            <PortfolioRoute path="/album-app" component={AlbumApp} />
+            <PortfolioRoute exact path="/portfolio/album-app" component={AlbumApp} />
           </Switch>
       </div>
     </BrowserRouter>
