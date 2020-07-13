@@ -5,4 +5,13 @@
 .card .card-title {
   color: #0d0d0d;
 }
+
+.button-text {
+  padding-left: 10px;
+}
+
+.album-details {
+  border-left: 1px solid #d8d8d8;
+  padding-bottom: 15px;
+}
 /*# sourceMappingURL=album-collection.css.map */

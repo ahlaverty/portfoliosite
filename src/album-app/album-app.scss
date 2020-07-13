@@ -8,7 +8,29 @@ body {
    height: auto;
 }
 
+.btn-primary {
+   background: $primary-color;
+   border-color: $primary-color;
+   
+   &:hover {
+      background: $primary-lighter;
+   }
+   
+   &:not(:disabled):not(.disabled):active, &:focus {
+      background: $primary-lighter;
+      border-color: $primary-color;
+   }
+
+   &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(68, 88, 219, 0.5);
+   }
+}
+
 .album-collection-title {
    color: $black;
    margin-top: 1rem;
+}
+
+.add-btn-title {
+   padding-left: 5px;
 }

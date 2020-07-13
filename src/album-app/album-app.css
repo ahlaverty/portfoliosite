@@ -6,8 +6,31 @@ body {
   height: auto;
 }
 
+.btn-primary {
+  background: #2336b6;
+  border-color: #2336b6;
+}
+
+.btn-primary:hover {
+  background: #4458db;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:focus {
+  background: #4458db;
+  border-color: #2336b6;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(68, 88, 219, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(68, 88, 219, 0.5);
+}
+
 .album-collection-title {
   color: #0d0d0d;
   margin-top: 1rem;
+}
+
+.add-btn-title {
+  padding-left: 5px;
 }
 /*# sourceMappingURL=album-app.css.map */

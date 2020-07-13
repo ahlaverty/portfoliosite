@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAC;EACd,aAAa,EAAE,KAAK;CACtB;;AAED,AAAA,CAAC,CAAC;EACC,aAAa,EAAE,KAAK;CACtB;;AAED,AAAA,iBAAiB,CAAC;EACf,KAAK,ECQI,OAAkB;EDP3B,SAAS,EAAE,MAAM;CACnB;;AAED,AAAA,eAAe,CAAC;EACb,KAAK,ECED,OAAO;EDDX,SAAS,EAAE,OAAO;CACpB",
+    "sources": [
+        "albumdets.scss",
+        "../../website-components/styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "albumdets.css"
+}

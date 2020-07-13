@@ -2,8 +2,8 @@ import React from 'react';
 
 import './song-list.css';
 
-const AlbumList = (props) => {
-   const songList = props.songsList;
+const SongList = (props) => {
+   const songList = props.songs;
    console.log(songList);
    const songListItems = songList.map(song =>             
       <li key={song.trackNum} className="d-flex justify-content-between">
@@ -22,4 +22,4 @@ const AlbumList = (props) => {
    );
 };
 
-export default AlbumList;
+export default SongList;

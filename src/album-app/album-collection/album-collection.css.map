@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,SAAS,CAAC;EACP,aAAa,EAAE,IAAI;CACrB;;AAED,AACG,KADE,CACF,WAAW,CAAC;EACT,KAAK,ECKH,OAAO;CDJX",
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACP,aAAa,EAAE,IAAI;CACrB;;AAED,AACG,KADE,CACF,WAAW,CAAC;EACT,KAAK,ECMH,OAAO;CDLX;;AAGJ,AAAA,YAAY,CAAC;EACV,YAAY,EAAE,IAAI;CACpB;;AAED,AAAA,cAAc,CAAC;EACZ,WAAW,EAAE,GAAG,CAAC,KAAK,CCGZ,OAAmB;EDF7B,cAAc,EAAE,IAAI;CACtB",
     "sources": [
         "album-collection.scss",
         "../../website-components/styles/_colors.scss"

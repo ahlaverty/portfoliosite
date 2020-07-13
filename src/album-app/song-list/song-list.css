@@ -7,10 +7,10 @@ ul {
 }
 
 ul li {
-  border-bottom: 1px solid #7F7F7F;
+  border-bottom: 1px solid #d8d8d8;
   list-style-type: none;
-  padding-bottom: .5rem;
-  padding-top: .5rem;
+  padding-bottom: .75rem;
+  padding-top: .75rem;
 }
 
 ul li:last-of-type {
