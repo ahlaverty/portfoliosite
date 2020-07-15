@@ -29,7 +29,7 @@ export default function Portfolio(){
 									<Card.Body>
 										<Card.Title>Album List App</Card.Title>
 										<Card.Text>
-												This app allows you to search for an arttist or song, and find the albums for the artist and the album info.
+												This app allows you to search for an artist or song, and find the albums for the artist and the album info.
 										</Card.Text>
 										<Card.Text>Coming Soon!</Card.Text>
 										{/* <Link to="/portfolio/album-app">Check it out</Link> */}
