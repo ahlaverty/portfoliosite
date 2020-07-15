@@ -29,11 +29,11 @@ export default class AlbumCollection extends React.Component {
             <React.Fragment key={a.id}>
                {
                   showClicked ? 
-                  (<Col className="AlbumCol" lg={4}>
+                  (<Col className="AlbumCol" sm={4} lg={4}>
                      <Album albumInfo={a} imageUrl={a.albumArtUrl} onDisplayDetails={this.handleAlbumClick} />
                   </Col>) :
-                  (<Col className="AlbumCol" lg={4}>
-                  <Album albumInfo={a} imageUrl={a.albumArtUrl} onDisplayDetails={this.handleAlbumClick} />
+                  (<Col className="AlbumCol" sm={4} lg={3}>
+                     <Album albumInfo={a} imageUrl={a.albumArtUrl} onDisplayDetails={this.handleAlbumClick} />
                   </Col>)
                }
             </React.Fragment>

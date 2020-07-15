@@ -254,6 +254,64 @@
                "length": "3:35"
             }
          ]
+      },
+      {
+         "id": 5,
+         "albumTitle": "By the Way, I Forgive You",
+         "artist": "Brandi Carlile",
+         "albumArtUrl":"/by-the-way.jpg",
+         "songs": [
+            {
+               "trackNum": 1,
+               "title": "Every Time I Hear That Song",
+               "length": "4:01"
+            },
+            {
+               "trackNum": 2,
+               "title": "The Joke",
+               "length": "4:39"
+            },
+            {
+               "trackNum": 3,
+               "title": "Hold Out Your Hand",
+               "length": "4:22"
+            },
+            {
+               "trackNum": 4,
+               "title": "The Mother",
+               "length": "3:17"
+            },
+            {
+               "trackNum": 5,
+               "title": "Whatever You Do",
+               "length": "4:07"
+            },
+            {
+               "trackNum": 6,
+               "title": "Fulton County Jane Doe",
+               "length": "4:43"
+            },
+            {
+               "trackNum": 7,
+               "title": "Sugartooth",
+               "length": "4:28"
+            },
+            {
+               "trackNum": 8,
+               "title": "Most Of All",
+               "length": "3:51"
+            },
+            {
+               "trackNum": 9,
+               "title": "Harder To Forgive",
+               "length": "4:06"
+            },
+            {
+               "trackNum": 10,
+               "title": "Party of One",
+               "length": "5:47"
+            }
+         ]
       }
    ]
 }

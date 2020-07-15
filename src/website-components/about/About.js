@@ -8,7 +8,7 @@ export default function About() {
         <Col>
             <Row>
                 <Col>
-                    <h1>I am <span className="name">Aubrey H. Laverty</span>, a <span className="role-1">Front End Developer</span> + <span className="role-2">UX/UI Designer</span> based in Chicago looking for a company that will allow me to continue to grow my skillset.</h1>
+                    <h1 className="about">I am <span className="name">Aubrey H. Laverty</span>, a <span className="role-1">Front End Developer</span> + <span className="role-2">UX/UI Designer</span> based in Chicago looking for a company that will allow me to continue to grow my skillset.</h1>
                 </Col>
             </Row>
         </Col>

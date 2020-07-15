@@ -6,6 +6,11 @@ body {
   height: auto;
 }
 
+.content-change {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
 .btn-primary {
   background: #2336b6;
   border-color: #2336b6;
@@ -28,9 +33,29 @@ body {
 .album-collection-title {
   color: #0d0d0d;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .add-btn-title {
   padding-left: 5px;
+}
+
+.modal-content {
+  color: #0d0d0d;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+@media (min-width: 992px) {
+  .album-collection-title {
+    margin-bottom: 1.5rem;
+  }
 }
 /*# sourceMappingURL=album-app.css.map */

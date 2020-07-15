@@ -18,7 +18,7 @@ export default class AlbumDetails extends React.Component {
    render() {
 
       return ( 
-         <React.Fragment>
+         <React.Fragment className="content-change">
             <Row className="mb-3">
                <Col>
                   <button type="button" className="close" onClick={this.closeDets}><span aria-hidden="true">×</span><span className="sr-only">Close</span></button>
