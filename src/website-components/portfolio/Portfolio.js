@@ -25,16 +25,22 @@ export default function Portfolio(){
 									<Card.Text className="mt-5"><span className="font-bold">Technologies used:</span> HTML, CSS, SCSS, Bootstrap 4</Card.Text>
 								</Card.Body>
 							</Card>
-								<Card>
-									<Card.Body>
-										<Card.Title>Album List App</Card.Title>
-										<Card.Text>
-												This app allows you to search for an artist or song, and find the albums for the artist and the album info.
-										</Card.Text>
-										<Card.Text>Coming Soon!</Card.Text>
-										{/* <Link to="/portfolio/album-app">Check it out</Link> */}
-									</Card.Body>
-								</Card>
+							<Card>
+								<Card.Body>
+									<Card.Title>Design Examples</Card.Title>
+									<Card.Text>Here are some small design examples.</Card.Text>
+								</Card.Body>
+							</Card>
+							<Card>
+								<Card.Body>
+									<Card.Title>To do List App</Card.Title>
+									<Card.Text>
+											This app allows you to create a to do list.
+									</Card.Text>
+									<Card.Text>Coming Soon!</Card.Text>
+									{/* <Link to="/portfolio/album-app">Check it out</Link> */}
+								</Card.Body>
+							</Card>
 						</CardDeck>
 					</Col>
 				</Row>
