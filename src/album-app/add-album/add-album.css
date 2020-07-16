@@ -1,0 +1,13 @@
+.add-album-container {
+  background: #f9f9f9;
+  border: 1px solid #7F7F7F;
+  border-radius: 10px;
+  margin-top: 3rem;
+  max-width: 800px;
+  padding: 15px;
+}
+
+.add-album-container .add-button-col {
+  max-width: 50px;
+}
+/*# sourceMappingURL=add-album.css.map */

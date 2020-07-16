@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,oBAAoB,CAAA;EACjB,UAAU,ECkBE,OAAmB;EDjB/B,MAAM,EAAE,GAAG,CAAC,KAAK,CCcb,OAAO;EDbX,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;CAKf;;AAXD,AAQG,oBARiB,CAQjB,eAAe,CAAC;EACb,SAAS,EAAE,IAAI;CACjB",
+    "sources": [
+        "add-album.scss",
+        "../../website-components/styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "add-album.css"
+}
