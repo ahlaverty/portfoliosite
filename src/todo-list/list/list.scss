@@ -1,0 +1,41 @@
+@import "../../website-components/styles/colors";
+
+.todo-list {
+   font-size: 1.1rem;
+   list-style-type: none;
+   padding-left: 0;
+   
+   li {
+      color: $black;
+      background: $secondary-color;
+      border-radius: 15px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+
+      .delete-btn {
+         background: none;
+         border: none;
+         color: $gray-dark;
+      }
+   }
+}
+
+.holder {
+   display: flex;
+   align-items: center;
+}
+
+form, .form-group {
+   display: inline;
+}
+
+#formBasicCheckbox {
+   margin-left: 10px;
+   -ms-transform: scale(1.75);
+   transform: scale(1.75);
+}
+
+.strike-through {
+   text-decoration: line-through;
+}

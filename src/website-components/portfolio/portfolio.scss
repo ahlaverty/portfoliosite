@@ -11,7 +11,15 @@ h1 {
         font-weight: 600;
     }
 
-    .card-text {
+    .card-text, h5, h6 {
         color: $black;
     }
+}
+
+.design-example-image {
+    max-width: 200px;
+}
+
+.ease-transition {
+    transition: all 400ms ease;
 }

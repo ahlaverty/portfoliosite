@@ -1,0 +1,44 @@
+.todo-list {
+  font-size: 1.1rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.todo-list li {
+  color: #0d0d0d;
+  background: #34d8c3;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.todo-list li .delete-btn {
+  background: none;
+  border: none;
+  color: #4c4c4c;
+}
+
+.holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form, .form-group {
+  display: inline;
+}
+
+#formBasicCheckbox {
+  margin-left: 10px;
+  -webkit-transform: scale(1.75);
+          transform: scale(1.75);
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=list.css.map */

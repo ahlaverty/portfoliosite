@@ -10,7 +10,7 @@ import About from "./website-components/about/About";
 import Contact from "./website-components/contact/Contact";
 import Portfolio from "./website-components/portfolio/Portfolio";
 import Gradient from "./website-components/gradient/Gradient";
-import AlbumApp from "./album-app/AlbumApp";
+import ToDoList from "./todo-list/ToDoList";
 
 import "./App.css";
 
@@ -23,7 +23,7 @@ function App() {
             <MainRoute exact path="/about" component={About} />
             <MainRoute exact path="/portfolio" component={Portfolio} />
             <MainRoute exact path="/contact" component={Contact} />
-            <PortfolioRoute exact path="/portfolio/album-app" component={AlbumApp} />
+            <PortfolioRoute exact path="/portfolio/todo-list" component={ToDoList} />
           </Switch>
       </div>
     </BrowserRouter>

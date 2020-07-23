@@ -1,0 +1,16 @@
+@import "../website-components/styles/colors";
+
+.primary-btn {
+   background: $primary-color;
+   border-color: $primary-color;
+   color: $white;
+
+   &:hover, &:focus {
+      background: $primary-light;
+      border-color: $primary-light;
+   }
+}
+
+#todoItem {
+   margin-right: 15px;
+}

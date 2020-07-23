@@ -8,7 +8,16 @@ h1 {
   font-weight: 600;
 }
 
-.card .card-text {
+.card .card-text, .card h5, .card h6 {
   color: #0d0d0d;
+}
+
+.design-example-image {
+  max-width: 200px;
+}
+
+.ease-transition {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 /*# sourceMappingURL=portfolio.css.map */
