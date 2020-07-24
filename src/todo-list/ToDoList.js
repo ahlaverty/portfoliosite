@@ -56,7 +56,7 @@ export default class ToDoList extends React.Component {
                </Col>
             </Row>
             <Row className="justify-content-center mt-4 mb-3">
-               <Col lg={7}>
+               <Col sm={12} lg={7}>
                   <Form 
                      inline 
                      onSubmit={this.handleSubmit}
@@ -79,7 +79,7 @@ export default class ToDoList extends React.Component {
                </Col> */}
             </Row>
             <Row className="justify-content-center">
-               <Col lg={7}>
+               <Col sm={12} lg={7}>
                   <List todos={this.state.items} />
                </Col>
             </Row>
