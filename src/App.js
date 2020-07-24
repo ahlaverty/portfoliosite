@@ -23,7 +23,7 @@ function App() {
             <MainRoute exact path="/about" component={About} />
             <MainRoute exact path="/portfolio" component={Portfolio} />
             <MainRoute exact path="/contact" component={Contact} />
-            <PortfolioRoute path="/portfolio/todo-list" component={ToDoList} />
+            <PortfolioRoute exact path="/portfolio/todo-list" component={ToDoList} />
           </Switch>
       </div>
     </BrowserRouter>
