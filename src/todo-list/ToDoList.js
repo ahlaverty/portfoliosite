@@ -61,10 +61,10 @@ export default class ToDoList extends React.Component {
                      inline 
                      onSubmit={this.handleSubmit}
                      className="justify-content-center">
-                     <Form.Group>
+                     <Form.Group id="todoItem">
                         <Form.Control
                            required
-                           id="todoItem"
+                           
                            type="text" onChange={this.handleChange} />
                      </Form.Group>
                      <Button
