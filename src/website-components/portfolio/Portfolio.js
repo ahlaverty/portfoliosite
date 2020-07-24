@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { Row, Col, Card, CardDeck, Image } from 'react-bootstrap';
 
 import designExample1 from '../images/aarp-card-circle@2x.png';
@@ -37,7 +37,7 @@ export default function Porfolio() {
 									<Card.Text>
 											This is a simple app allows you to add to-dos to a list, delete them, and mark them done.
 									</Card.Text>
-									<Card.Text>Check it out <a href="/portfolio/todo-list">here</a>.</Card.Text>
+									<Card.Text>Check it out <Link to="/portfolio/todo-list">here</Link>.</Card.Text>
 								</Card.Body>
 								<Card.Footer>
 									<Card.Text><span className="font-bold">Technologies used:</span> ReactJS, SCSS, React-Bootstrap</Card.Text>
