@@ -1,5 +1,10 @@
 @import "../website-components/styles/colors";
 
+.card {
+   background: $gray-lighter;
+   color: $black;
+}
+
 .primary-btn {
    background: $primary-color;
    border-color: $primary-color;

@@ -10,7 +10,6 @@ import About from "./website-components/about/About";
 import Contact from "./website-components/contact/Contact";
 import Portfolio from "./website-components/portfolio/Portfolio";
 import Gradient from "./website-components/gradient/Gradient";
-import ToDoList from "./todo-list/ToDoList";
 
 import "./App.css";
 
@@ -18,42 +17,21 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-          <Switch>
-            <MainRoute exact path="/" component={Home} />
-            <MainRoute exact path="/about" component={About} />
-            <MainRoute exact path="/portfolio" component={Portfolio} />
-            <MainRoute exact path="/contact" component={Contact} />
-            <PortfolioRoute exact path="/portfolio/todo-list" component={ToDoList} />
-          </Switch>
+        <TopNav />
+        <Container fluid>
+          <Row className="content-row">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
+            </Switch>
+          </Row>
+        </Container>
+        <Gradient />
       </div>
     </BrowserRouter>
   );
 }
-
-export const MainRoute = ({ component: Component, ...rest}) => {
-  return(
-    <Route {...rest} component={(props) => (
-      <>
-        <TopNav />
-        <Container fluid>
-          <Row className="content-row">
-            <Component {...props} />
-          </Row>
-        </Container>
-        <Gradient />
-      </>
-    )} />
-  );
-};
-
-export const PortfolioRoute = ({ component: Component, ...rest}) => {
-  return(
-    <Route {...rest} component={(props) => (
-      <>
-        <Component {...props} />
-      </>
-    )} />
-  );
-};
 
 export default App;
