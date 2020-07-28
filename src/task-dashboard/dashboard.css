@@ -1,0 +1,335 @@
+.dashboard {
+  color: #0d0d0d;
+  background: #f9f9f9;
+  padding: 3rem;
+  margin: 0 15px;
+  border-radius: 15px;
+}
+
+.taskSample {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fdfaf9;
+}
+
+#dashboardIcon {
+  padding-top: 2rem;
+}
+
+.card-deck {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.card-deck .branchCard.card {
+  border-radius: .5rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.card-deck .branchCard.card:hover {
+  text-decoration: none;
+  border-color: #007bff;
+  cursor: pointer;
+  color: inherit;
+}
+
+.card-deck .branchCard.card:hover h5.card-title {
+  background: #1D214F;
+}
+
+.card-deck .branchCard.card:visited {
+  color: inherit;
+}
+
+/*style for branch cards*/
+.branchCard .taskClosed, .branchCard .taskOpen, .branchCard .taskLate, .branchCard .taskComp {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.branchCard .numbers {
+  font-size: 43px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.cardType {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+
+.centerAuto {
+  margin: 0 auto;
+}
+
+svg.indicator {
+  color: #FFFFFF;
+  border-radius: 100%;
+  padding: 13px;
+  text-align: center;
+  width: 58px !important;
+  height: 58px;
+}
+
+#openCard {
+  background: #007bff;
+  color: #FFFFFF;
+}
+
+#openCard #openIcon {
+  color: #007bff;
+  background: #FFFFFF;
+}
+
+#openCard.openCard-off {
+  background: #FFFFFF;
+  color: #4c4c4c;
+}
+
+#openCard.openCard-off #openIcon {
+  color: #FFFFFF;
+  background: #007bff;
+}
+
+#lateCard {
+  color: #FFFFFF;
+  background: #dc3545;
+}
+
+#lateCard #lateIcon {
+  color: #dc3545;
+}
+
+#lateCard.lateCard-off {
+  color: inherit;
+  background: #FFFFFF;
+}
+
+#lateCard.lateCard-off #lateIcon {
+  background: #dc3545;
+  color: #FFFFFF;
+}
+
+#thisWeekCard {
+  background: #ffc107;
+}
+
+#thisWeekCard #thisWkIcon {
+  color: #ffc107;
+}
+
+#thisWeekCard.thisWkCard-off {
+  background: #FFFFFF;
+}
+
+#thisWeekCard.thisWkCard-off #thisWkIcon {
+  color: #FFFFFF;
+  background: #ffc107;
+}
+
+#nextWeekCard {
+  color: #FFFFFF;
+  background: #6c757d;
+}
+
+#nextWeekCard #nextWkIcon {
+  color: #6c757d;
+  background: #FFFFFF;
+}
+
+#nextWeekCard.nextWkCard-off {
+  color: #4c4c4c;
+  background: #FFFFFF;
+}
+
+#nextWeekCard.nextWkCard-off #nextWkIcon {
+  color: #FFFFFF;
+  background: #6c757d;
+}
+
+#closedCard {
+  color: #FFFFFF;
+  background: #28a745;
+}
+
+#closedCard #closedIcon {
+  color: #28a745;
+  background: #FFFFFF;
+}
+
+#closedCard.closedCard-off {
+  color: #4c4c4c;
+  background: #FFFFFF;
+}
+
+#closedCard.closedCard-off #closedIcon {
+  color: #FFFFFF;
+  background: #28a745;
+}
+
+.cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* filter 
+input.daterange{
+   font-family:"Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+   min-width:200px;
+}
+
+.daterangepicker_input > svg.fa-calendar{
+   position:absolute;
+   top:6px;
+   left:6px;
+   color:#444444;
+}
+
+button#dateSearchBtn{
+   min-width:0;
+   background:#1D214F;
+   color:$white;
+}
+
+.daterangepicker{
+   color:#444444;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover{
+   background-color:#007bff;
+}
+
+.ranges li.active, .ranges li:hover{
+   background:#007bff;
+   border-color:#007bff;
+}
+
+.ranges li{
+}*/
+/*TABLE STARTS*/
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table tr:nth-child(odd) {
+  background: #FFFFFF;
+}
+
+.table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.table tr:hover {
+  cursor: pointer;
+}
+
+.table tr:last-of-type:not(.d-none) td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.priority {
+  white-space: nowrap;
+}
+
+.normalPriority {
+  color: #e64c00;
+}
+
+.dueDateContainer {
+  max-width: 175px;
+}
+
+.dueDateContainer .dueDateIndicator {
+  margin-right: 1rem;
+}
+
+.dueDate {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.dueDateAlert {
+  margin: 0.5rem 0;
+  white-space: nowrap;
+}
+
+.dueDateAlert svg {
+  margin-right: 1rem;
+}
+
+.percentCompleteContainer {
+  background-color: #CCD4DC;
+  width: 140px;
+  display: inline-block;
+}
+
+.percentColorBar {
+  background-color: #0094ff;
+}
+
+@media (min-width: 500px) {
+  .cardType {
+    font-size: 1.125rem;
+  }
+  .branchCard .numbers {
+    font-size: 65px;
+    line-height: 50px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 768px) {
+  .dueDateAlert {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .dueDateContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    white-space: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    max-width: 325px;
+  }
+}
+
+@media (min-width: 992px) {
+  .branchCard .numbers {
+    font-size: 63px;
+    line-height: 60px;
+    font-weight: 600;
+  }
+  .branchCard .taskClosed, .branchCard .taskOpen, .branchCard .taskLate, .branchCard .taskComp {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+/*# sourceMappingURL=dashboard.css.map */

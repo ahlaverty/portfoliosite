@@ -3,6 +3,7 @@ import { Route, Switch, useRouteMatch, BrowserRouter } from 'react-router-dom';
 
 import PortfolioContent from './PortfolioContent';
 import ToDoList from '../../todo-list/ToDoList';
+import TaskDashboard from '../../task-dashboard/Dashboard';
 
 
 import './portfolio.css';
@@ -12,22 +13,17 @@ export default function Porfolio() {
 	return(
 		<BrowserRouter>
 			<Switch>
-				<Route exact path="/portfolio" component={PortfolioContent} />
-				<PortfolioRoute exact path={`${path}/todo-list`}>
+				<Route exact path="/portfolio">
+					<PortfolioContent />
+				</Route>
+				<Route exact path={`${path}/todo-list`}>
 					<ToDoList/>
-				</PortfolioRoute>
+				</Route>
+				<Route exact path={`${path}/task-dashboard`}>
+					<TaskDashboard />
+				</Route>
 			</Switch>
 		</BrowserRouter>
 
 	);
 }
-
- export const PortfolioRoute = ({ component: Component, ...rest}) => {
-	return(
-	  <Route {...rest} component={(props) => (
-		 <>
-			<Component {...props} />
-		 </>
-	  )} />
-	);
- };

@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title":" Complete the upgrade for Windows 10",
+    "assignee": "Steve Yzerman",
+    "priority": "(1) High",
+    "dueDate": "10/2/2020",
+    "percentComplete": 50,
+    "completedDate": ""
+  },
+  {
+    "id": 2,
+    "title": "Update patches on the server in Virginia",
+    "assignee": "Kris Draper",
+    "priority": "(2) Normal",
+    "dueDate": "5/5/2020",
+    "percentComplete": 80,
+    "completedDate": ""
+  },
+  {
+    "id": 3,
+    "title": "Update patches on the server in Charleston",
+    "assignee": "Darren McCarty",
+    "priority": "(2) Normal",
+    "dueDate": "10/30/2020",
+    "percentComplete": 25
+  },
+  {
+    "id": 4,
+    "title": "Write the quarterly report for the CTO",
+    "assignee": "Chris Osgood",
+    "priority": "(3) Low",
+    "dueDate": "6/24/2020",
+    "percentComplete": 100,
+    "completedDate": "6/22/2020"
+  },
+  {
+    "id": 5,
+    "title": "Complete RFI for AWS",
+    "assignee": "Brendan Shanahan",
+    "priority": "(1) High",
+    "dueDate": "8/13/2020",
+    "percentComplete": 0
+  },
+  {
+    "id": 6,
+    "title": "Submit annual report",
+    "assignee": "Dino Ciccarelli",
+    "priority": "(2) Normal",
+    "dueDate": "9/2/2020",
+    "percentComplete": 10
+  }
+]

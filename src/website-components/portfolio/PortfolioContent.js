@@ -42,6 +42,16 @@ export default function PortfolioContent() {
                         <Card.Text><span className="font-bold">Technologies used:</span> ReactJS, SCSS, React-Bootstrap</Card.Text>
                      </Card.Footer>
                   </Card>
+                  <Card>
+                     <Card.Body>
+                        <Card.Title>Task Dashboard</Card.Title>
+                        <Card.Text>This is a task dashboard app. It allows you to see the status of the items, add items, and complete them.</Card.Text>
+                        <Card.Text>View it <Link to={`${path}/task-dashboard`}>here</Link>.</Card.Text>
+                     </Card.Body>
+                     <Card.Footer>
+                        <Card.Text><span className="font-bold">Technologies used:</span> ReactJS, SCSS, React-Bootstrap</Card.Text>
+                     </Card.Footer>
+                  </Card>
                </CardDeck>
             </Col>
 			</Row>
