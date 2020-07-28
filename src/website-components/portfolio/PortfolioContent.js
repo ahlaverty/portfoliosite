@@ -42,7 +42,7 @@ export default function PortfolioContent() {
                         <Card.Text><span className="font-bold">Technologies used:</span> ReactJS, SCSS, React-Bootstrap</Card.Text>
                      </Card.Footer>
                   </Card>
-                  <Card>
+                  {/* <Card>
                      <Card.Body>
                         <Card.Title>Task Dashboard</Card.Title>
                         <Card.Text>This is a task dashboard app. It allows you to see the status of the items, add items, and complete them.</Card.Text>
@@ -51,7 +51,7 @@ export default function PortfolioContent() {
                      <Card.Footer>
                         <Card.Text><span className="font-bold">Technologies used:</span> ReactJS, SCSS, React-Bootstrap</Card.Text>
                      </Card.Footer>
-                  </Card>
+                  </Card> */}
                </CardDeck>
             </Col>
 			</Row>
