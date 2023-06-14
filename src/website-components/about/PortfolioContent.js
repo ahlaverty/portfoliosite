@@ -55,31 +55,6 @@ export default function PortfolioContent() {
                </CardDeck>
             </Col>
 			</Row>
-			{/* <Row  className="mt-5 text-black">
-				<Col lg="auto">
-					<Card>
-						<Card.Body>
-							<Card.Title>Design Examples</Card.Title>
-							<Row>
-								<Col>
-									<h6>Debit Card Examples</h6>
-								</Col>
-							</Row>
-							<Row>
-								<Col>
-									<Image fluid className="design-example-image" src={designExample1} />
-								</Col>
-								<Col>
-									<Image fluid className="design-example-image" src={designExample2} />
-								</Col>
-								<Col>
-									<Image fluid className="design-example-image" src={designExample3} />
-								</Col>
-							</Row>
-						</Card.Body>
-					</Card>
-				</Col>	
-			</Row> */}
       </Col>
 
    );
