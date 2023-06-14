@@ -13,8 +13,8 @@ export default function About() {
             </Row>
             <Row>
                 <Col>
-                    <p>In addition to being a developer, I enjoy making art and volunteering in my spare time.</p>
-                    <p>I sit on the Associate Board at <a href="https://www.mercyhome.org">Mercy Home for Boys and Girls</a> based in Chicago, IL. I have been volunteering with the board for over five years.</p>
+                    <h2>In addition to being a developer, I enjoy making art and volunteering in my spare time.</h2>
+                    <h2>I sit on the Associate Board at <a href="https://www.mercyhome.org">Mercy Home for Boys and Girls</a> based in Chicago, IL. I have been volunteering with the board for over five years.</h2>
                 </Col>
             </Row>
         </Col>

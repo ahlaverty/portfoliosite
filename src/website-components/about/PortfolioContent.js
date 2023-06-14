@@ -51,7 +51,7 @@ export default function PortfolioContent() {
                      <Card.Footer>
                         <Card.Text><span className="font-bold">Technologies used:</span> ReactJS, SCSS, React-Bootstrap</Card.Text>
                      </Card.Footer>
-                  </Card> */}
+                  </Card> */ }
                </CardDeck>
             </Col>
 			</Row>
