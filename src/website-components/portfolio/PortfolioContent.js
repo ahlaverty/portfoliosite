@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, CardDeck, Card, Image } from 'react-bootstrap';
+import { Row, Col, CardDeck, Card } from 'react-bootstrap';
 import { Link, useRouteMatch } from 'react-router-dom';    
          
 export default function PortfolioContent() {
