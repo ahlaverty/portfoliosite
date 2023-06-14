@@ -1,10 +1,6 @@
 import React from 'react';
 import { Row, Col, CardDeck, Card, Image } from 'react-bootstrap';
-import { Link, useRouteMatch } from 'react-router-dom';
-
-import designExample1 from '../images/aarp-card-circle@2x.png';
-import designExample2 from '../images/wisdomtre-card-greengradient@3x.png';
-import designExample3 from '../images/wisdomtree-card-graygradient@3x.png';     
+import { Link, useRouteMatch } from 'react-router-dom';    
          
 export default function PortfolioContent() {
 
