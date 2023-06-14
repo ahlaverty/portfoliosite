@@ -14,7 +14,7 @@ export default function About() {
             <Row>
                 <Col>
                     <h2 class="about">In addition to being a developer, I enjoy making art and volunteering in my spare time.</h2>
-                    <h2 class="about">I sit on the Associate Board at <a href="https://www.mercyhome.org">Mercy Home for Boys and Girls</a> based in Chicago, IL. I have been volunteering with the board for over five years.</h2>
+                    {/* <h2 class="about">I sit on the Associate Board at <a href="https://www.mercyhome.org">Mercy Home for Boys and Girls</a> based in Chicago, IL. I have been volunteering with the board for over five years.</h2> */}
                 </Col>
             </Row>
         </Col>
