@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col, CardDeck, Card } from "react-bootstrap";
-import { Link, useRouteMatch } from "react-router-dom";
+// import { useRouteMatch } from "react-router-dom";
 
 export default function PortfolioContent() {
-  let { path } = useRouteMatch();
+  //   let { path } = useRouteMatch();
 
   return (
     <Col>
