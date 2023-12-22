@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch, useRouteMatch, BrowserRouter } from "react-router-dom";
 
 import PortfolioContent from "./PortfolioContent";
-import ToDoList from "../../todo-list/ToDoList";
+// import ToDoList from "../../todo-list/ToDoList";
 import TaskDashboard from "../../task-dashboard/Dashboard";
 
 import "./portfolio.css";
