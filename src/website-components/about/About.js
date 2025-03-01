@@ -8,7 +8,7 @@ export default function About() {
         <Col>
             <Row>
                 <Col>
-                    <h1 className="about">I am <span className="name">Aubrey H. Laverty</span>, a <span className="role-1">SharePoint Developer</span> + <span className="role-2">Power Platform Developer</span> based in Chicago looking for a company that will allow me to continue to grow my skillset.</h1>
+                    <h1 className="about">I am <span className="name">Aubrey H. Laverty</span>, a <span className="role-1">SharePoint Developer</span> + <span className="role-2">Power Platform Developer</span>.</h1>
                 </Col>
             </Row>
             <Row>
